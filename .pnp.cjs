@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@typescript-eslint/eslint-plugin", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:5.36.2"],\
             ["@typescript-eslint/parser", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:5.36.2"],\
+            ["date-fns", "npm:2.29.2"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-prettier", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:8.5.0"],\
             ["eslint-config-standard-with-typescript", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:22.0.0"],\
@@ -821,6 +822,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-key", "npm:3.1.1"],\
             ["shebang-command", "npm:2.0.0"],\
             ["which", "npm:2.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["date-fns", [\
+        ["npm:2.29.2", {\
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.29.2-da48c27e93-08bebcceb0.zip/node_modules/date-fns/",\
+          "packageDependencies": [\
+            ["date-fns", "npm:2.29.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3082,6 +3092,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rest", "workspace:."],\
             ["@typescript-eslint/eslint-plugin", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:5.36.2"],\
             ["@typescript-eslint/parser", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:5.36.2"],\
+            ["date-fns", "npm:2.29.2"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-prettier", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:8.5.0"],\
             ["eslint-config-standard-with-typescript", "virtual:2fbea3d25680b3d59ec24053524a2b0b0e78e004ce0b6d8297302235e0b26020122e2bf155246fec4c47297c1d1fe81a2ef5facbd3637278dd593f03ae95775b#npm:22.0.0"],\
